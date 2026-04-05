@@ -36,10 +36,7 @@ The splits in this project match the **Animals-10** benchmark: ten classes (`but
 1. **Public download (recommended)**  
    Use **[Animals-10 on Kaggle](https://www.kaggle.com/datasets/alessiocorrado99/animals10)** (free account required). The archive is usually organized as **one folder per class**. You must **build your own `train` / `val` / `test` split** (for example ~80% / 10% / 10% per class, stratified) and place them under `animal_groups/` as below. Image counts do not need to match the notebook exactly; the code only expects **10 classes** and the three splits.
 
-2. **Course or shared bundle**  
-   If you received this notebook for a class (paths like `163602/datasets` suggest a course layout), use the **dataset files supplied by the instructor** or LMS — that is the intended copy for assignments.
-
-3. **Other sources**  
+2. **Other sources**  
    Any image collection with the **same 10 class folders** will work if you split it the same way. Always check the **license and terms** of the dataset you use.
 
 ## Data layout
@@ -73,13 +70,6 @@ Each split contains one subdirectory per class. If your data lives elsewhere, up
 ```bash
 jupyter lab CNN.ipynb
 ```
-
-## Suggested repository names
-
-| Use case | Examples |
-|----------|----------|
-| Clear & generic | `pytorch-animal-classification`, `animal-cnn-transfer-learning` |
-| Course / assignment | `hw3-animal-classification`, `cs163602-animal-cnn` |
 
 ## Acknowledgments
 
